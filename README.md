@@ -1,1 +1,26 @@
-Simpletron
+Operation names and their codes in Simpletron Machine Language (SML):
+
+Operation name      Operation code
+
+READ                10
+WRITE               11
+LOAD                20
+STORE               21
+ADD                 30
+SUBSTRACT           31
+MULTIPLY            32
+DIVIDE              33
+BRANCH              40
+BRANCHNEG           41
+BRANCHZERO          42
+
+
+A program written in Simpletron Machine Language to add two integer values: 
+
+1020                //reads the integer value entered by user into memory cell 20 
+1021                //reads the integer value entered by user into memory cell 21
+2020                //loads data from memory cell 20 into accumulator
+3021                //adds accumulator data and data from memory cell 21 (the result is in accumulator)
+2122                //Stores accumulator data into memory cell 22
+1122                //prints data from memory cell 22 
+-99999              //sentinel value, end of program
