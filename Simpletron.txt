@@ -15,7 +15,7 @@ BRANCHNEG           41
 BRANCHZERO          42
 
 
-A program written in Simpletron Machine Language to add two integer values: 
+A program written in Simpletron Machine Language for adding two integer values: 
 
 1020                //reads the integer value entered by user into memory cell 20 
 1021                //reads the integer value entered by user into memory cell 21
